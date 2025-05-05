@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "name": "PrimaryButton",
+      "description": "A bold, rounded purple button used for main actions.",
+      "props": ["label", "onPress", "icon"],
+      "defaultLabel": "Continue",
+      "defaultIcon": "arrow-right",
+      "style": {
+        "backgroundColor": "primary",
+        "borderRadius": "lg",
+        "font": "Inter"
+      }
+    },
+    {
+      "name": "SecondaryButton",
+      "description": "A subtle ghost-style button with a border.",
+      "props": ["label", "onPress"],
+      "defaultLabel": "Cancel",
+      "style": {
+        "backgroundColor": "transparent",
+        "border": "1px solid #D0D5DD",
+        "font": "Inter"
+      }
+    },
+    {
+      "name": "InputField",
+      "description": "A standard text input with placeholder support.",
+      "props": ["placeholder", "type"],
+      "defaultType": "text",
+      "style": {
+        "border": "1px solid #D0D5DD",
+        "padding": "md"
+      }
+    },
+    {
+      "name": "Card",
+      "description": "A container with padding and light shadow for grouping UI elements.",
+      "props": ["children"],
+      "style": {
+        "backgroundColor": "white",
+        "borderRadius": "lg",
+        "shadow": "sm"
+      }
+    },
+    {
+      "name": "ImageBlock",
+      "description": "A visual image element, can be decorative or functional.",
+      "props": ["url", "altText", "style"]
+    }
+  ],
+  "icons": [
+    {
+      "name": "home",
+      "url": "https://phosphoricons.com/icons/house-simple"
+    },
+    {
+      "name": "user",
+      "url": "https://phosphoricons.com/icons/user"
+    },
+    {
+      "name": "settings",
+      "url": "https://phosphoricons.com/icons/gear-six"
+    },
+    {
+      "name": "camera",
+      "url": "https://phosphoricons.com/icons/camera"
+    },
+    {
+      "name": "arrow-right",
+      "url": "https://phosphoricons.com/icons/arrow-right"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Inter",
+      "url": "https://fonts.googleapis.com/css2?family=Inter"
+    },
+    {
+      "name": "Roboto",
+      "url": "https://fonts.googleapis.com/css2?family=Roboto"
+    },
+    {
+      "name": "Poppins",
+      "url": "https://fonts.googleapis.com/css2?family=Poppins"
+    }
+  ],
+  "colors": {
+    "primary": "#7F56D9",
+    "secondary": "#F2F4F7",
+    "accent": "#12B76A",
+    "error": "#F04438",
+    "white": "#FFFFFF",
+    "black": "#000000"
+  },
+  "radii": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px"
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px"
+  },
+  "templates": [
+    {
+      "name": "LoginScreen",
+      "description": "Email and password input fields with a login button at the bottom. Optional 'Forgot Password' link."
+    },
+    {
+      "name": "ProfileScreen",
+      "description": "User profile image at the top, name, bio, and buttons to edit or logout."
+    },
+    {
+      "name": "HomeFeed",
+      "description": "Top nav bar with logo and profile icon, scrollable list of cards or posts."
+    }
+  ],
+  "backgrounds": [
+    {
+      "name": "City Sunset",
+      "type": "photo",
+      "source": "https://source.unsplash.com/featured/?sunset,city"
+    },
+    {
+      "name": "Modern Workspace",
+      "type": "photo",
+      "source": "https://source.unsplash.com/featured/?workspace,technology"
+    }
+  ]
+}
